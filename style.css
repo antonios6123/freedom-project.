@@ -1,0 +1,143 @@
+.affix {
+    top: 0;
+    width: 100%;
+   /*color:rgb(119, 221, 119);*/
+}
+
+.affix + .container {
+    padding-top: 125px;
+    color:black;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+   color:black;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border-width: 0;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+}
+
+/*start title*/
+.jumbotron-fluid{
+    background-color:rgb(220,220,220);
+}
+
+/*.display-4{*/
+/*    color:red;*/
+/*}*/
+/*end title*/
+
+/*start home*/
+.dark-brown {
+    background-color:rgb(153,204,255);
+}
+
+
+
+.section h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    padding: 50px 20px;
+    color:black;
+}
+
+.container h3 {
+    padding-bottom: 20px;
+    color:black;
+}
+
+.jumbotron p {
+    font-size: 24px;
+color:black;
+    
+}
+.footer {
+    background-color: black;
+    padding: 35px;
+}
+
+.footer h3 {
+    color: rgb(169,169,169);
+    font-size: 25px;
+}
+#contact {
+    background-color:rgb(192,192,192);
+    background-size: cover;
+} 
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    h3 {
+        font-size: 60px;
+    }
+}
+
+
+.navbar-inverse { background-color: black}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: rgb(211,211,211)}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color:rgb(211,211,211)}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FFFFFF}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus
+.navbar-inverse { border-color: #FFFFFF}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
